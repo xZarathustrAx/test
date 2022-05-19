@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт про путешествия!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="css/favicon.png" type="image/png">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="js/code.js" async></script>
+    <link rel="stylesheet" href="css/animate.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div id="logo">
+                <img src="img/logo.png" alt="лого, компания, Nordic">
+            </div>
+            <nav class="nav">
+                <a href="#main" class="nav__a"> Главная</a>
+                <a href="#about" class="nav__a"> О нас </a>
+                <a href="#contact" class="nav__a"> Контакты </a>
+            </nav>
+        </header>
+
+        <div class="wrap_form animated">
+           
+            <i class="fa fa-times"></i>
+            <form action="" method="POST">
+                <h3> Введите ваши данные</h3>
+                <p class="error"> </p>
+                <p class="error_name"></p>
+                <p class="error_email"></p>
+                <p class="error_tel"></p>
+                
+                <input type="text" name="name" placeholder="имя" >
+                <input type="email" name="email" placeholder="email">
+                <input type="tel" name="tel" placeholder="телефон">
+                <input type="submit" value="отправить">
+            </form>
+        </div>
+        
+        <div class="side_panel">
+            <ul>
+                <li> <a href="#main">Главная </a></li>
+                <li><a href="#about"> О нас</a></li>
+                <li><a href="#contact"> Контакты</a></li>
+            </ul>
+        </div>
+        <div class="promo" id="main">
+            <h1 class="promo__h1">Только красивые путешествия</h1>
+            <a href="#">
+                <button class="promo__button"> Присоединяйся </button>
+            </a>
+
+            <div class="soc_icons">
+                <a href="https://vk.com">
+                    <div class="soc_icons__icon soc_icons__icon_vk "></div>
+                </a>
+                <a href="https://facebook.com">
+                    <div class="soc_icons__icon soc_icons__icon_face"></div>
+                </a>
+                <a href="https://instagram.com">
+                    <div class="soc_icons__icon soc_icons__icon_inst"></div>
+                </a>
+            </div>
+        </div>
+
+        <div class="banner-header">
+            <h3 class="banner-header__h3">Путешествуй красиво</h3>
+        </div>
+
+        <div class="info">
+            <p class="info__p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, veritatis reprehenderit!
+            </p>
+            <p class="info__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            <p class="info__p">Не следует, однако, забывать, что постоянный количественный рост и сфера нашей активности
+                создаёт предпосылки качественно новых шагов для укрепления демократической системы. </p>
+        </div>
+
+        <div class="banner-header">
+            <h3 class="banner-header__h3">Причины воспользоваться нашими услугами</h3>
+        </div>
+        <div class="reasons" id="about">
+            <ul class="reasons__ul">
+                <li class="reasons__li"> Дешево</li>
+                <li class="reasons__li">Сердито</li>
+                <li class="reasons__li"> Гиды умеют говорить по русски</li>
+                <li class="reasons__li"> Комфорт</li>
+                <li class="reasons__li"> Полное сопровождение </li>
+            </ul>
+        </div>
+        <div class="cards">
+
+            <div class="card">
+                <div class="card__img_wrap">
+                    <img src="img/moscow.png" alt="" class="card__img">
+                </div>
+                <h5 class="card__h5">Путешествия по России</h5>
+                <div class="card__line"></div>
+                <p class="card__p"> Балалайки, матрешки, Кремль</p>
+            </div>
+
+            <div class="card">
+                <div class="card__img_wrap">
+                    <img src="img/big-ben.png" alt="" class="card__img">
+                </div>
+                <h5 class="card__h5">Путешествия по Англии</h5>
+                <div class="card__line"></div>
+                <p class="card__p"> Разные страны, разные культуры</p>
+            </div>
+
+            <div class="card">
+                <div class="card__img_wrap">
+                    <img src="img/pyramids.png" alt="" class="card__img">
+                </div>
+                <h5 class="card__h5">Путешествия по Африке</h5>
+                <div class="card__line"></div>
+                <p class="card__p"> Классные сафари, львы и много папуасов</p>
+            </div>
+
+            <div class="card">
+                <div class="card__img_wrap">
+                    <img src="img/south-america.png" alt="" class="card__img">
+                </div>
+                <h5 class="card__h5">Путешествия по Северной Америке</h5>
+                <div class="card__line"></div>
+                <p class="card__p"> Конечно мы проедем всю Америку и тут будет еще немного контента</p>
+            </div>
+
+            <div class="card">
+                <div class="card__img_wrap">
+                    <img src="img/north-america.png" alt="" class="card__img">
+                </div>
+                <h5 class="card__h5">Путешествия по Южной Америке</h5>
+                <div class="card__line"></div>
+                <p class="card__p"> Южная Америка нас ждет, там классно, бананы и землятрясения</p>
+            </div>
+            <div class="card">
+                <div class="card__img_wrap">
+                    <img src="img/kangaroo.png" alt="" class="card__img">
+                </div>
+                <h5 class="card__h5">Путешествия по Австралии</h5>
+                <div class="card__line"></div>
+                <p class="card__p"> Австралия, кенгуру, летающих пауков там нет! Или есть. ПРиезжайте и проверьте</p>
+            </div>
+
+        </div>
+<div class="wrap_panel">
+
+    <div class="wraper_faq">
+        <div class="faq_panel"> <h5>Какова стоимость путешествия </h5></div>
+        <div class="faq_answer"> <p> Стоимость путешествия зависит от страны</p></div>
+    </div>
+    <div class="wraper_faq">
+        <div class="faq_panel"> <h5>Есть ли страховка в путешествии? </h5></div>
+        <div class="faq_answer"> <p> Нет, все будет нормально</p></div>
+    </div>
+    <div class="wraper_faq">
+        <div class="faq_panel"> <h5> Нужен ли загранник для получения визы?</h5></div>
+        <div class="faq_answer"> <p> Да, очень нужен</p></div>
+    </div>
+
+</div>
+
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A53668337e5785bee8127b031a1f8f4ba1a74ac0c23ed566812a0e5924e07e887&amp;source=constructor" width="1200" height="400" frameborder="0"></iframe>
+
+        <footer class="footer" id="contact">
+            <div class="contacts">
+                <h5 class="contacts__h5">Наши контакты:</h5>
+                <address class="contacts__address"> Москва, ул Комсомола 12</address>
+                <span class="contacts__span">тел 8(495)-626-46-34</span>
+                <span class="contacts__span"> <a href="mailto:example@mail.ru"> example@mail.ru</a></span>
+                <span class="contacts__span"> Часы работы: 10-19 </span>
+            </div>
+            <div class="logo">
+                <form action="" class="form__home_work">
+                    <label for="">введите первое число</label>
+     <input type="number" id="a" value="1">
+     <label for="">введите второе число</label>
+     <input type="number" id="b" value="1">
+     <input type="button" value="сложить " class="calc_btn" onclick="addition()">
+     <div id="result" class="result"></div>
+     </form>
+            </div>
+            <div class="travel_anc">
+                <a href="#" class="travel_anc__a">
+                    Путешествия по России
+                </a>
+                <a href="#" class="travel_anc__a">
+                    Путешествия по Украине
+                </a>
+                <a href="#" class="travel_anc__a">
+                    Путешествия по Таиланду
+                </a>
+                <a href="#" class="travel_anc__a">
+                    Путешествия по ОАЭ
+                </a>
+                <a href="#" class="travel_anc__a">
+                    Путешествия по Латвии
+                </a>
+            </div>
+
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
